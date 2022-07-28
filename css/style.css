@@ -204,7 +204,7 @@ body {
   position: fixed;
   visibility: hidden;
   top: 0;
-  left: -100%;
+  top: -100%;
   width: 100%;;
   margin: 0;
   padding: 80px 0;
@@ -235,6 +235,7 @@ body {
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+  border-radius: 16px;
 }
 .menu__item-1 {
   color: #7eb693;
@@ -253,6 +254,7 @@ body {
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
+  top: 0;
   left: 0;
 }
 
