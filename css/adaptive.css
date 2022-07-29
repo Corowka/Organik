@@ -1,3 +1,57 @@
+@media (min-width: 1400px) {
+  /* Header Srart */
+
+  /* Header End */
+
+  /* News Srart */
+
+  /* News End */
+
+  /* About_us Srart */
+
+  /* About_us End */
+
+  /* Our_products Start */
+
+  /* Our_products End */
+
+  /* Testimonial Start */
+
+  /* Testimonial End */
+
+  /* Offer_products Start */
+
+  /* Offer_products End */
+
+  /* Eco_fiendly Start */
+
+  .eco_friendly .info {
+    width: 66%;
+  }
+
+  /* Eco_fiendly End */
+
+  /* Categories Start */
+
+  /* Categories End */
+
+  /* Bottom_news Start */
+
+  /* Bottom_news End */
+
+  /* Subscribe Start */
+
+  /* Subscribe End */
+
+  /* Contacts Start */
+
+  /* Contacts End */
+
+  /* Footer Start */
+
+  /* Footer End */
+}
+
 @media (max-width: 1400px) {
   /* Header End */
 
