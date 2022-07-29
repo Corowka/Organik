@@ -235,6 +235,19 @@
 
   /* Bottom_news Start */
 
+  .bottom_news .news_card-wrap {
+    padding: 100px 0px 150px;
+    grid-template-columns: 1fr;
+  }
+
+  .news-card {
+    margin-top: 0px; 
+    width: 100%;
+    height: auto;
+    padding: 50px 40px 60px;
+  }
+
+
   /* Bottom_news End */
 
   /* Subscribe Start */
@@ -298,6 +311,57 @@
 
   /* Footer End */
 }
+
+@media (max-width: 768px) {
+  /* Header Srart */
+
+  /* Header End */
+
+  /* News Srart */
+
+  /* News End */
+
+  /* About_us Srart */
+
+  /* About_us End */
+
+  /* Our_products Start */
+
+  /* Our_products End */
+
+  /* Testimonial Start */
+
+  /* Testimonial End */
+
+  /* Offer_products Start */
+
+  /* Offer_products End */
+
+  /* Eco_fiendly Start */
+
+  /* Eco_fiendly End */
+
+  /* Categories Start */
+
+  /* Categories End */
+
+  /* Bottom_news Start */
+
+  /* Bottom_news End */
+
+  /* Subscribe Start */
+
+  /* Subscribe End */
+
+  /* Contacts Start */
+
+  /* Contacts End */
+
+  /* Footer Start */
+
+  /* Footer End */
+}
+
 
 @media (max-width: 576px) {
   /* Header Srart */

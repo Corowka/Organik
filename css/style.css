@@ -1153,7 +1153,7 @@ header {
   padding: 100px 0px 230px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
+  grid-gap: 30px;
 }
 
 .news-card {
