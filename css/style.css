@@ -170,7 +170,7 @@ body {
 /* стилизуем кнопку */
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
+  align-items: center; /* центрируем содержимое кнопки */
   position: fixed;
   top: 15px;
   left: 35px;
@@ -190,11 +190,11 @@ body {
   background-color: #616161;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -12px;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 12px;
 }
 
@@ -205,7 +205,7 @@ body {
   visibility: hidden;
   top: 0;
   top: -100%;
-  width: 100%;;
+  width: 100%;
   margin: 0;
   padding: 80px 0;
   list-style: none;
@@ -228,13 +228,13 @@ body {
   display: block;
   padding: 12px 20px;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
   border-radius: 16px;
 }
 .menu__item-1 {
@@ -1052,17 +1052,26 @@ header {
   background-position: center center;
   background-size: cover;
 }
+.food-cards .food-card-1:hover {
+  box-shadow: 0px 0px 100px 3px rgba(95, 93, 54, 0.6) inset;
+}
 
 .food-cards .food-card-2 {
   background: url(../img/svg/food-card-2-bg.svg);
   background-position: center center;
   background-size: cover;
 }
+.food-cards .food-card-2:hover {
+  box-shadow: 0px 0px 100px 3px rgba(54, 75, 32, 0.6) inset;
+}
 
 .food-cards .food-card-3 {
   background: url(../img/svg/food-card-3-bg.svg);
   background-position: center center;
   background-size: cover;
+}
+.food-cards .food-card-3:hover {
+  box-shadow: 0px 0px 100px 3px rgba(34, 60, 80, 0.6) inset;
 }
 
 .food-cards .text-wrap {
